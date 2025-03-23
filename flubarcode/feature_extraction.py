@@ -232,8 +232,8 @@ reference_codon_freq = {
     'CGA': 0.5, 'CGG': 0.5, 'AGA': 0.5, 'AGG': 0.5, 'GGT': 0.5, 'GGC': 0.5, 'GGA': 0.5, 'GGG': 0.5
 }
 
-# 基本特征
-extract_features(input_fasta_path, output_excel_path)
+##  基本特征
+# extract_features(input_fasta_path, output_excel_path)
 #RSCI值计算
-extract_rscu(input_fasta_path, output_excel_path)
+# extract_rscu(input_fasta_path, output_excel_path)
 
