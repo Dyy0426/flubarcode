@@ -126,17 +126,17 @@ def plot_heatmap(input_excel_path, output_image_path, cmap='coolwarm', annot=Tru
     plt.show()
 
 
-# 1维码可视化
-input_file = 'barcodes_input.fasta'  # Replace with the actual file path
-output_file = 'output.docx'  # Replace with the desired output file path
-one_dim_code(input_file, output_file)
+##  1维码可视化
+# input_file = 'barcodes_input.fasta'  # Replace with the actual file path
+# output_file = 'output.docx'  # Replace with the desired output file path
+# one_dim_code(input_file, output_file)
 
-# 热图绘制
-input_excel_path = 'heatmap_input.xlsx'  # Replace with the actual input Excel file path
-output_image_path = 'heatmap.svg'  # Replace with the desired output image file path, can be 'heatmap.svg', 'heatmap.png', etc.
-plot_heatmap(input_excel_path, output_image_path, cmap='viridis', annot=True, fmt=".2f", font_scale=1.5, figsize=(12, 10))
+##  热图绘制
+# input_excel_path = 'heatmap_input.xlsx'  # Replace with the actual input Excel file path
+# output_image_path = 'heatmap.svg'  # Replace with the desired output image file path, can be 'heatmap.svg', 'heatmap.png', etc.
+# plot_heatmap(input_excel_path, output_image_path, cmap='viridis', annot=True, fmt=".2f", font_scale=1.5, figsize=(12, 10))
 
-# 箱线图绘制
-input_excel_path = 'boxplot_input.xlsx'  # Replace with the actual input Excel file path
-output_image_path = 'boxplot.svg'  # Replace with the desired output image file path, can be 'boxplot.svg', 'boxplot.png', etc.
-plot_boxplot(input_excel_path, output_image_path, x_label='Samples', y_label='Values', title='Boxplot of Excel Data', font_scale=1.5, figsize=(14, 10))
+##  箱线图绘制
+# input_excel_path = 'boxplot_input.xlsx'  # Replace with the actual input Excel file path
+# output_image_path = 'boxplot.svg'  # Replace with the desired output image file path, can be 'boxplot.svg', 'boxplot.png', etc.
+# plot_boxplot(input_excel_path, output_image_path, x_label='Samples', y_label='Values', title='Boxplot of Excel Data', font_scale=1.5, figsize=(14, 10))
