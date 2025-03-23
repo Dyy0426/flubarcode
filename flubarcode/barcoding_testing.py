@@ -251,16 +251,16 @@ def process_files_primers(barcode_file_path, output_excel_path, primer_length=18
 
 
 
-# input and output files
-input_fasta_path = 'input.fasta'  # Replace with the path to your input FASTA file
-barcode_file_path = 'barcodes_input.fasta'  # Replace with the path to your barcode file
-output_excel_path = 'output.xlsx'  # Replace with the desired output Excel file path
+##  input and output files
+# input_fasta_path = 'input.fasta'  # Replace with the path to your input FASTA file
+# barcode_file_path = 'barcodes_input.fasta'  # Replace with the path to your barcode file
+# output_excel_path = 'output.xlsx'  # Replace with the desired output Excel file path
 
-# Calculation of recall
-process_files_recall(input_fasta_path, barcode_file_path, output_excel_path)
-# Calculation of specificity
-process_files_specificity(input_fasta_path, barcode_file_path, output_excel_path)
-# primers design
-process_files_primers(barcode_file_path, output_excel_path)
+## Calculation of recall
+# process_files_recall(input_fasta_path, barcode_file_path, output_excel_path)
+##  Calculation of specificity
+# process_files_specificity(input_fasta_path, barcode_file_path, output_excel_path)
+##  primers design
+# process_files_primers(barcode_file_path, output_excel_path)
 
 
